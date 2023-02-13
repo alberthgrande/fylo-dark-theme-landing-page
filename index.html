@@ -52,7 +52,6 @@
           <h1 class="heading__one">
             All your files in one secure location, accessible anywhere.
           </h1>
-          <!--  -->
 
           <p class="content__one">
             Fylo stores all your most important files in one secure location.
@@ -60,8 +59,7 @@
             family, and co-workers.
           </p>
 
-          <!--  -->
-          <button class="button">Get Started</button>
+          <button type="submit" class="button">Get Started</button>
         </article>
 
         <article class="article__two">
@@ -70,7 +68,7 @@
               <img src="./images/icon-access-anywhere.svg" alt="" />
               <h2 class="article__two-title">Access your files, anywhere</h2>
 
-              <p>
+              <p class="article__two-text">
                 The ability to use a smartphone, tablet, or computer to access
                 your account means your files follow you everywhere.
               </p>
@@ -80,7 +78,7 @@
               <img src="./images/icon-security.svg" alt="" />
               <h2 class="article__two-title">Security you can trust</h2>
 
-              <p>
+              <p class="article__two-text">
                 2-factor authentication and user-controlled encryption are just
                 a couple of the security features we allow to help secure your
                 files.
@@ -91,7 +89,7 @@
               <img src="./images/icon-collaboration.svg" alt="" />
               <h2 class="article__two-title">Real-time collaboration</h2>
 
-              <p>
+              <p class="article__two-text">
                 Securely share files and folders with friends, family and
                 colleagues for live collaboration. No email attachments
                 required.
@@ -102,7 +100,7 @@
               <img src="./images/icon-any-file.svg" alt="" />
               <h2 class="article__two-title">Store any type of file</h2>
 
-              <p>
+              <p class="article__two-text">
                 Whether you're sharing holidays photos or work documents, Fylo
                 has you covered allowing for all file types to be securely
                 stored and shared.
@@ -139,6 +137,11 @@
         <article class="article__four">
           <div class="article__four-cotnainer">
             <div class="article__card">
+              <img
+                class="bg-quotes"
+                src="./images/bg-quotes.png"
+                alt="quotes logo"
+              />
               <p class="article__card-text">
                 Fylo has improved our team productivity by an order of
                 magnitude. Since making the switch our team has become a
@@ -195,7 +198,7 @@
         <div class="article__five-container">
           <h4 class="article__five-title">Get early access today</h4>
 
-          <p>
+          <p class="article__five-text">
             It only takes a minute to sign up and our free starter tier is
             extremely generous. If you have any questions, our support team
             would be happy to help you.
@@ -207,8 +210,11 @@
               class="email"
               id="email"
               placeholder="johnappleseed#mail.com"
+              required
             />
-            <button type="button" class="button">Get Started For Free</button>
+            <button type="submit" class="button" id="button">
+              Get Started For Free
+            </button>
           </div>
         </div>
       </article>
@@ -264,12 +270,15 @@
           </div>
         </article>
       </section>
+
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="#">Alberth Grande</a>.
       </p>
     </footer>
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
